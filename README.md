@@ -121,4 +121,3 @@ No. This actor is an independent tool and is not affiliated with, endorsed by, o
 
 - Run it here: https://serp.ly/redgifs-bulk-video-downloader
 - Browser extension alternative: https://serp.ly/redgifs-downloader
-- Apify actor: https://apify.com/serpxxx/redgifs-bulk-video-downloader
